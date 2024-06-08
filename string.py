@@ -1,0 +1,16 @@
+# program to take a input of a student's name,class,section,marks in Mathematics,English Language,computer Science and their average.
+print("Enter the name of the student:")
+name= input()
+print("Enter the class of the student:")
+standrd= input()
+print("Enter the section of the student:")
+sec=input()
+print("enter the marks in Maths,English,Computer Science respectively:")
+maths=input("Maths marks - ")
+eng=input("English marks - ")
+comp=input("Comp Sci marks - ")
+print("Hence,The name of the student is "+name+".\n"+name+" studies in Class "+standrd+" of Section "+sec+".\nThe Mathematics marks are "+maths+" .\nThe English marks are "+eng+".\nThe Computer science marks are "+comp) 
+total= int(maths)+int(eng)+int(comp)
+average=total/3.0
+print("The Total is ",total)
+print("The Average is ",average)
