@@ -1,0 +1,12 @@
+#multiples of 6
+E=[6,12,18,24,30,36,42,48,54]
+#multiples of 4
+N=[4,12,16,20,24,28,32,36,]
+union=list(set(E)|set(N))
+print("Union of Set E and N is",union)
+res=list(set(E)&set(N))
+print("Intersection of Set E and Set N is",res)
+diff=list(set(E)-set(N))
+print("Difference of Set E and Set N is",diff)
+symdiff=list(set(E).symmetric_difference(set(N)))
+print("Symmetric Difference of Set E and Set N is",symdiff)
